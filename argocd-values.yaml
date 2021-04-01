@@ -1,9 +1,8 @@
 server:
   ingress:
     enabled: true
+    hosts:
+    - rvbtech.com
   extraArgs:
   - --insecure
 installCRDs: false
-controller:
-  args:
-    appResyncPeriod: 30
