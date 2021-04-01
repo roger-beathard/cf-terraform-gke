@@ -2,7 +2,7 @@ server:
   ingress:
     enabled: true
     hosts:
-    - rvbtech.com
+    - cf.rvbtech.com
   extraArgs:
   - --insecure
 installCRDs: false
