@@ -5,7 +5,7 @@ variable "region" {
 
 variable "project_id" {
   type    = string
-  default = "doc-20200910120159"
+  default = "rbeathard-test"
 }
 
 variable "cluster_name" {
@@ -40,12 +40,10 @@ variable "billing_account_id" {
 
 variable "k8s_version" {
   type    = string
-  default = "1.17.15-gke.800"
+  default = "1.18.16-gke.2100"
 }
 
 variable "destroy" {
   type    = bool
-  default = true
+  default = false
 }
-
-
