@@ -8,6 +8,7 @@ steps:
     type: git-clone
     repo: "roger-beathard/cf-terraform-gke"
     revision: "${{CF_BRANCH}}"
+    git: "roger-beathard"
     stage: prepare
   auth:
     image: alpine:3.12
