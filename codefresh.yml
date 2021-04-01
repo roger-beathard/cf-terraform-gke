@@ -54,7 +54,7 @@ steps:
     when:
       condition:
         all:
-          notDestroy: '"${{DESTROY}}" == "false"'
+          notDestroy: '"${{DESTROY}}" == "true"'
       branch:
         only:
           - master
